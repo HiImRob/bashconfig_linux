@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/miniconda3/bin:$PATH"
+export PATH="/Library/TeX/texbin:$PATH"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+#export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+#export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
